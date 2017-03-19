@@ -3,9 +3,43 @@
 }
 
 .site-branding {
-    text-align: center;
+    img {
+        display: inline;
+        vertical-align: middle;
+        padding: 1em;
+    }
 }
 
 .site-title {
-    
+    display: inline;
+    vertical-align: middle;
+    font-family: 'American Typewriter';
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 1.3em;
+    color: #fff;
+    word-break: break-word;
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    a:hover, a:focus {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 30em) {
+    .site-title {
+        font-size: 1em;
+    }
+}
+
+.site-description {
+    margin: 2em 2em 3em;
+    font-size: 110%;
+    color: #fff;
+}
+
+.site-logo {
+    padding: 1em;
 }

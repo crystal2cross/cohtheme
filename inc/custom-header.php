@@ -17,6 +17,13 @@
  * @uses cohtheme_header_style()
  */
 function cohtheme_custom_header_setup() {
+        add_theme_support( 'custom-logo', array(
+            'width' => 147,
+            'height' => 147,
+            'flex-width' => false,
+            'flex-height' => false
+        ) );
+        
 	add_theme_support( 'custom-header', apply_filters( 'cohtheme_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',

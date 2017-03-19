@@ -272,8 +272,40 @@ textarea {
   line-height: 1.5;
 }
 
+.site-content {
+  font-size: 1.125em;
+  line-height: 1.6em;
+}
+
 h1, h2, h3, h4, h5, h6 {
   clear: both;
+  line-height: 1.3em;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.4em;
+}
+
+h2 {
+  font-size: 2.2em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+h5 {
+  font-size: 1.6em;
+}
+
+h6 {
+  font-size: 1.4em;
 }
 
 p {
@@ -646,18 +678,17 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
-.site-content {
-  display: flex;
+/*.site-content {
+    display: flex;
 }
 
 .content-area {
-  flex: 2;
+    flex: 2;
 }
 
 .site-content, .widget-area {
-  flex: 1;
-}
-
+    flex: 1;
+}*/
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
@@ -694,8 +725,43 @@ a:hover, a:active {
   background-color: #272B6F;
 }
 
-.site-branding {
-  text-align: center;
+.site-branding img {
+  display: inline;
+  vertical-align: middle;
+  padding: 1em;
+}
+
+.site-title {
+  display: inline;
+  vertical-align: middle;
+  font-family: 'American Typewriter';
+  font-size: 1.4em;
+  font-weight: normal;
+  line-height: 1.3em;
+  color: #fff;
+  word-break: break-word;
+}
+.site-title a {
+  text-decoration: none;
+  color: inherit;
+}
+.site-title a:hover, .site-title a:focus {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 30em) {
+  .site-title {
+    font-size: 1em;
+  }
+}
+.site-description {
+  margin: 2em 2em 3em;
+  font-size: 110%;
+  color: #fff;
+}
+
+.site-logo {
+  padding: 1em;
 }
 
 /*--------------------------------------------------------------
@@ -755,6 +821,32 @@ a:hover, a:active {
   display: block;
 }
 
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+.site-main {
+  margin: 1.4em;
+  font-size: .8em;
+  line-height: 1.6em;
+}
+
+@media screen and (min-width: 30em) {
+  .site-main {
+    margin: 1.8em;
+  }
+}
+@media screen and (min-width: 40em) {
+  .site-main {
+    margin: 1.8em;
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 57em) {
+  .site-main {
+    max-width: 45em;
+    margin: 1.8em auto;
+  }
+}
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
