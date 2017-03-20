@@ -1,8 +1,6 @@
 .main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
+        float: right;
+        vertical-align: middle;
 
 	ul {
 		display: none;
@@ -11,10 +9,11 @@
 		padding-left: 0;
 
 		ul {
-			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			//box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+                        background-color: #5867C3;
 			float: left;
 			position: absolute;
-			top: 1.5em;
+			top: 96px;
 			left: -999em;
 			z-index: 99999;
 
@@ -57,6 +56,10 @@
 		&.focus > a {
 		}
 	}
+        
+        li {
+            padding-right: 1em;
+        }
 
 	a {
 		display: block;
@@ -75,14 +78,85 @@
 .main-navigation.toggled ul {
 	display: block;
 }
-
-@media screen and (min-width: 37.5em) {
+.menu-toggle {
+    border: none;
+    background: none;
+    color: #fff;
+    margin-right: 1em;
+    margin-top: 2.2em;
+}
+@media screen and (max-width: 57em) {
+    /* disable submenus on smaller screens */
+    ul.sub-menu { display: none !important; }
+ 
+    #primary-menu {
+            position: absolute;
+            left: 0px;
+            top: 142px;
+            background-color: #5867C3;
+            a {
+                color: #fff;
+            }
+    }
+    li.menu-item {
+        width: 100%;
+        line-height: 5em;
+        padding-left: 1em;
+        text-transform: uppercase;
+        &:after {
+            content: '\f054';
+            font-family: FontAwesome;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration:none;
+            color: #fff;
+            position: absolute;
+            right: 1em;
+            top: 0px;
+        }
+    }
+    .donate-button {
+        background-color: #E6525A;
+        &:after {
+            display:none;
+        }
+    }
+}
+/* Large screen */
+@media screen and (min-width: 57em) {
 	.menu-toggle {
 		display: none;
 	}
-	.main-navigation ul {
+	.main-navigation {
+            ul {
 		display: block;
+            }
+            li {
+                color: #fff;
+                line-height: 96px;
+                padding-left: 2em;
+                padding-right: 2em;
+                a, a:hover, a:focus {
+                    color: #fff;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
 	}
+        .donate-button {
+            line-height: 56px !important;
+            background-color: #E6525A;
+            padding-left: 3.5em !important;
+            padding-right: 3.5em !important;
+            margin-right: 2em;
+            margin-left: 2em;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 7px;
+        }
 }
 
 .comment-navigation,

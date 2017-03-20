@@ -3,8 +3,8 @@
 }
 
 .site-branding {
+    float: left;
     img {
-        display: inline;
         vertical-align: middle;
         padding: 1em;
     }
@@ -42,4 +42,8 @@
 
 .site-logo {
     padding: 1em;
+}
+
+nav {
+    
 }

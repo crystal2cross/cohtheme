@@ -539,10 +539,8 @@ a:hover, a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-  clear: both;
-  display: block;
-  float: left;
-  width: 100%;
+  float: right;
+  vertical-align: middle;
 }
 .main-navigation ul {
   display: none;
@@ -551,10 +549,10 @@ a:hover, a:active {
   padding-left: 0;
 }
 .main-navigation ul ul {
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  background-color: #5867C3;
   float: left;
   position: absolute;
-  top: 1.5em;
+  top: 96px;
   left: -999em;
   z-index: 99999;
 }
@@ -576,6 +574,9 @@ a:hover, a:active {
   float: left;
   position: relative;
 }
+.main-navigation li {
+  padding-right: 1em;
+}
 .main-navigation a {
   display: block;
   text-decoration: none;
@@ -587,13 +588,89 @@ a:hover, a:active {
   display: block;
 }
 
-@media screen and (min-width: 37.5em) {
+.menu-toggle {
+  border: none;
+  background: none;
+  color: #fff;
+  margin-right: 1em;
+  margin-top: 2.2em;
+}
+
+@media screen and (max-width: 57em) {
+  /* disable submenus on smaller screens */
+  ul.sub-menu {
+    display: none !important;
+  }
+
+  #primary-menu {
+    position: absolute;
+    left: 0px;
+    top: 142px;
+    background-color: #5867C3;
+  }
+  #primary-menu a {
+    color: #fff;
+  }
+
+  li.menu-item {
+    width: 100%;
+    line-height: 5em;
+    padding-left: 1em;
+    text-transform: uppercase;
+  }
+  li.menu-item:after {
+    content: '\f054';
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    right: 1em;
+    top: 0px;
+  }
+
+  .donate-button {
+    background-color: #E6525A;
+  }
+  .donate-button:after {
+    display: none;
+  }
+}
+/* Large screen */
+@media screen and (min-width: 57em) {
   .menu-toggle {
     display: none;
   }
 
   .main-navigation ul {
     display: block;
+  }
+  .main-navigation li {
+    color: #fff;
+    line-height: 96px;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .main-navigation li a, .main-navigation li a:hover, .main-navigation li a:focus {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .main-navigation li a:hover {
+    text-decoration: underline;
+  }
+
+  .donate-button {
+    line-height: 56px !important;
+    background-color: #E6525A;
+    padding-left: 3.5em !important;
+    padding-right: 3.5em !important;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
   }
 }
 .site-main .comment-navigation, .site-main
@@ -725,8 +802,10 @@ a:hover, a:active {
   background-color: #272B6F;
 }
 
+.site-branding {
+  float: left;
+}
 .site-branding img {
-  display: inline;
   vertical-align: middle;
   padding: 1em;
 }
