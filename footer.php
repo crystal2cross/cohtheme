@@ -44,7 +44,9 @@
                 <p>Ways to Give</p>
                 <p>Buy COH Swag</p>
             </div> 
-            <hr style="clear:both">
+        </div>
+        <hr style="clear:both">
+        <div class="site-info">
             <div class="coh-footer-col-5">
                 <p>© Copyright 2017 Coalition on Homelessness.  All rights reserved.</p>
             </div>

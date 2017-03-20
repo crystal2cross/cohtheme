@@ -1,3 +1,25 @@
+@media screen and (max-width: 50em) {
+    .coh-media-1 {
+        height: 25em;
+    }
+    img.cover {
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 100em) {
+    .coh-media-1 {
+        max-height: 50em;
+        min-width: 100%;
+        overflow: hidden;
+    }
+    img.cover {
+        object-fit: none;
+        object-position: 50% 60%;
+    }
+}
+
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {

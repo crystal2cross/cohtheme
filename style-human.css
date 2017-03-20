@@ -650,13 +650,13 @@ a:hover, a:active {
   .main-navigation li {
     color: #fff;
     line-height: 96px;
-    padding-left: 2em;
     padding-right: 2em;
   }
   .main-navigation li a, .main-navigation li a:hover, .main-navigation li a:focus {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+    margin-left: 2em;
   }
   .main-navigation li a:hover {
     text-decoration: underline;
@@ -665,13 +665,20 @@ a:hover, a:active {
   .donate-button {
     line-height: 56px !important;
     background-color: #E6525A;
-    padding-left: 3.5em !important;
+    padding-left: 1.5em !important;
     padding-right: 3.5em !important;
     margin-right: 2em;
     margin-left: 2em;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 7px;
+  }
+  .donate-button:hover, .donate-button:focus {
+    text-decoration: none;
+    background-color: #5867C3;
+  }
+  .donate-button:hover a:hover, .donate-button:hover a:focus, .donate-button:focus a:hover, .donate-button:focus a:focus {
+    text-decoration: none;
   }
 }
 .site-main .comment-navigation, .site-main
@@ -826,7 +833,7 @@ a:hover, a:active {
   color: inherit;
 }
 .site-title a:hover, .site-title a:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 70em) {
@@ -894,6 +901,28 @@ a:hover, a:active {
   margin: 0 0 1.5em;
 }
 
+#coh-mission-statement {
+  margin-top: -35px;
+  margin-bottom: -27px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#coh-impact-statements {
+  margin-top: -34px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #5867C3;
+  color: #fff;
+}
+
+#coh-get-involved {
+  margin-top: -27px;
+  margin-bottom: -27px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
@@ -937,6 +966,10 @@ html, .site-footer {
 .site-main, .site-info {
   margin: 1.4em;
   line-height: 1.6em;
+}
+
+.site-footer {
+  padding-top: 2em;
 }
 
 @media screen and (max-width: 70em) {
@@ -1010,6 +1043,28 @@ html, .site-footer {
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
+@media screen and (max-width: 50em) {
+  .coh-media-1 {
+    height: 25em;
+  }
+
+  img.cover {
+    object-fit: cover;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 100em) {
+  .coh-media-1 {
+    max-height: 50em;
+    min-width: 100%;
+    overflow: hidden;
+  }
+
+  img.cover {
+    object-fit: none;
+    object-position: 50% 60%;
+  }
+}
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
