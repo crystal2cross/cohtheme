@@ -28,9 +28,12 @@
     }
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 70em) {
     .site-title {
         font-size: 1em;
+    }
+    #primary-menu {
+        font-size: .8em;
     }
 }
 

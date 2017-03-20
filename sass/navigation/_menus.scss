@@ -1,82 +1,82 @@
 .main-navigation {
-        float: right;
-        vertical-align: middle;
+    float: right;
+    vertical-align: middle;
 
-	ul {
-		display: none;
-		list-style: none;
-		margin: 0;
-		padding-left: 0;
+    ul {
+        display: none;
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
 
-		ul {
-			//box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-                        background-color: #5867C3;
-			float: left;
-			position: absolute;
-			top: 96px;
-			left: -999em;
-			z-index: 99999;
+        ul {
+            //box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+            background-color: #5867C3;
+            float: left;
+            position: absolute;
+            top: 96px;
+            left: -999em;
+            z-index: 99999;
 
-			ul {
-				left: -999em;
-				top: 0;
-			}
+            ul {
+                left: -999em;
+                top: 0;
+            }
 
-			li {
-				&:hover > ul,
-				&.focus > ul {
-					left: 100%;
-				}
-			}
+            li {
+                &:hover > ul,
+                &.focus > ul {
+                        left: 100%;
+                }
+            }
 
-			a {
-				width: 200px;
-			}
+            a {
+                width: 200px;
+            }
 
-			:hover > a,
-			.focus > a {
-			}
+            :hover > a,
+            .focus > a {
+            }
 
-			a:hover,
-			a.focus {
-			}
-		}
-
-		li:hover > ul,
-		li.focus > ul {
-			left: auto;
-		}
-	}
-
-	li {
-		float: left;
-		position: relative;
-
-		&:hover > a,
-		&.focus > a {
-		}
-	}
-        
-        li {
-            padding-right: 1em;
+            a:hover,
+            a.focus {
+            }
         }
 
-	a {
-		display: block;
-		text-decoration: none;
-	}
+        li:hover > ul,
+        li.focus > ul {
+                left: auto;
+        }
+    }
 
-	.current_page_item > a,
-	.current-menu-item > a,
-	.current_page_ancestor > a,
-	.current-menu-ancestor > a {
-	}
+    li {
+        float: left;
+        position: relative;
+
+        &:hover > a,
+        &.focus > a {
+        }
+    }
+        
+    li {
+        padding-right: 1em;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+    }
+
+    .current_page_item > a,
+    .current-menu-item > a,
+    .current_page_ancestor > a,
+    .current-menu-ancestor > a {
+    }
 }
 
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-	display: block;
+    display: block;
 }
 .menu-toggle {
     border: none;
@@ -90,13 +90,14 @@
     ul.sub-menu { display: none !important; }
  
     #primary-menu {
-            position: absolute;
-            left: 0px;
-            top: 142px;
-            background-color: #5867C3;
-            a {
-                color: #fff;
-            }
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 96px;
+        background-color: #5867C3;
+        a {
+            color: #fff;
+        }
     }
     li.menu-item {
         width: 100%;
@@ -124,58 +125,58 @@
 }
 /* Large screen */
 @media screen and (min-width: 57em) {
-	.menu-toggle {
-		display: none;
-	}
-	.main-navigation {
-            ul {
-		display: block;
-            }
-            li {
-                color: #fff;
-                line-height: 96px;
-                padding-left: 2em;
-                padding-right: 2em;
-                a, a:hover, a:focus {
-                    color: #fff;
-                    text-decoration: none;
-                    text-transform: uppercase;
-                }
-                a:hover {
-                    text-decoration: underline;
-                }
-            }
-	}
-        .donate-button {
-            line-height: 56px !important;
-            background-color: #E6525A;
-            padding-left: 3.5em !important;
-            padding-right: 3.5em !important;
-            margin-right: 2em;
-            margin-left: 2em;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            border-radius: 7px;
+    .menu-toggle {
+            display: none;
+    }
+    .main-navigation {
+        ul {
+            display: block;
         }
+        li {
+            color: #fff;
+            line-height: 96px;
+            padding-left: 2em;
+            padding-right: 2em;
+            a, a:hover, a:focus {
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .donate-button {
+        line-height: 56px !important;
+        background-color: #E6525A;
+        padding-left: 3.5em !important;
+        padding-right: 3.5em !important;
+        margin-right: 2em;
+        margin-left: 2em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 7px;
+    }
 }
 
 .comment-navigation,
 .posts-navigation,
 .post-navigation {
 
-	.site-main & {
-		margin: 0 0 1.5em;
-		overflow: hidden;
-	}
+    .site-main & {
+        margin: 0 0 1.5em;
+        overflow: hidden;
+    }
 
-	.nav-previous {
-		float: left;
-		width: 50%;
-	}
+    .nav-previous {
+        float: left;
+        width: 50%;
+    }
 
-	.nav-next {
-		float: right;
-		text-align: right;
-		width: 50%;
-	}
+    .nav-next {
+        float: right;
+        text-align: right;
+        width: 50%;
+    }
 }
