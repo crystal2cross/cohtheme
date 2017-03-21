@@ -15,7 +15,8 @@
 get_header(); ?>
 
     <div class="coh-media-1">
-        <img class="cover" src="http://localhost:8888/wp-content/uploads/2017/03/header_image.png">
+        <img class="cover" src="http://192.168.0.107:8888/wp-content/uploads/2017/03/header_image.png">
+        <span class="coh-media-text">We shine a light on<br>poverty and injustice<br>in San Francisco.</span>
     </div>
 
     <div id="coh-mission-statement" class="content-area">
@@ -42,7 +43,7 @@ get_header(); ?>
     </div><!-- #coh-mission-statements -->
         
     <div class="coh-media-2">
-        <img src="http://localhost:8888/wp-content/uploads/2017/03/header_image_2.png">
+        <img src="http://192.168.0.107:8888/wp-content/uploads/2017/03/header_image_2.png">
     </div>
         
     <div id="coh-impact-statements" class="content-area">

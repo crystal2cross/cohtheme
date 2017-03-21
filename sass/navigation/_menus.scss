@@ -85,6 +85,9 @@
     margin-right: 1em;
     margin-top: 2.2em;
 }
+#primary-menu {
+    z-index: 1;
+}
 @media screen and (max-width: 57em) {
     /* disable submenus on smaller screens */
     ul.sub-menu { display: none !important; }
