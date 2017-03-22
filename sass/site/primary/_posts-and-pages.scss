@@ -41,6 +41,10 @@
     margin-bottom: -22px;
     padding-top: 40px;
     padding-bottom: 30px;
+    background: url(http://192.168.0.107:8888/wp-content/uploads/2017/03/butterflies.png);
+    background-repeat: no-repeat;
+    background-size: 148px 100px;
+    background-position: 10em 2.5em;
 }
 
 #coh-impact-statements {
@@ -66,5 +70,9 @@
     #coh-mission-statement, #coh-impact-statements, #coh-get-involved {
         padding-top: 80px;
         padding-bottom: 70px;
+    }
+    #coh-mission-statement {
+        background-size: 177px 120px;
+        background-position: 70% 20%;
     }
 }
