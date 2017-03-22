@@ -984,11 +984,11 @@ a:hover, a:active {
   margin-top: -22px;
   margin-bottom: -22px;
   padding-top: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 @media screen and (min-width: 57em) {
-  #coh-mission-statement, #coh-impact-statements, #coh-get-involved {
+  #coh-mission-statement, #coh-impact-statements {
     padding-top: 80px;
     padding-bottom: 70px;
   }
@@ -996,6 +996,11 @@ a:hover, a:active {
   #coh-mission-statement {
     background-size: 177px 120px;
     background-position: 70% 20%;
+  }
+
+  #coh-get-involved {
+    padding-top: 80px;
+    padding-bottom: 90px;
   }
 }
 @media screen and (min-width: 40em) and (max-width: 70em) {
@@ -1261,7 +1266,7 @@ html, .site-footer {
   text-shadow: 2px 2px #939AAA;
   text-align: center;
   position: absolute;
-  font-size: 1.6em;
+  font-size: 1.4em;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1291,7 +1296,23 @@ html, .site-footer {
 
   img.cover {
     object-fit: none;
-    object-position: 50% 80%;
+    object-position: 50% 50%;
+  }
+
+  .coh-media-text {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 100em) {
+  .coh-media-1 {
+    max-height: 45em;
+    min-width: 100%;
+    overflow: hidden;
+  }
+
+  img.cover {
+    object-fit: none;
+    object-position: 60% 80%;
   }
 
   .coh-media-text {

@@ -102,17 +102,21 @@
     margin-top: -22px;
     margin-bottom: -22px;
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 @media screen and (min-width: 57em) {
-    #coh-mission-statement, #coh-impact-statements, #coh-get-involved {
+    #coh-mission-statement, #coh-impact-statements {
         padding-top: 80px;
         padding-bottom: 70px;
     }
     #coh-mission-statement {
         background-size: 177px 120px;
         background-position: 70% 20%;
+    }
+    #coh-get-involved {
+        padding-top: 80px;
+        padding-bottom: 90px;
     }
 }
 
