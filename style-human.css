@@ -905,28 +905,47 @@ a:hover, a:active {
   margin: 0 0 1.5em;
 }
 
+.coh-title {
+  font-size: 1.5em;
+  color: inherit;
+  line-height: 3em;
+  text-transform: uppercase;
+  border-left: 3px solid #404040;
+  padding-left: 1em;
+}
+
 #coh-mission-statement {
-  margin-top: -35px;
-  margin-bottom: -27px;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  margin-top: -21px;
+  margin-bottom: -22px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 #coh-impact-statements {
-  margin-top: -34px;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  margin-top: -27px;
+  padding-top: 40px;
+  padding-bottom: 30px;
   background-color: #5867C3;
   color: #fff;
 }
-
-#coh-get-involved {
-  margin-top: -27px;
-  margin-bottom: -27px;
-  padding-top: 2em;
-  padding-bottom: 2em;
+#coh-impact-statements .coh-title {
+  color: #fff !important;
+  border-left: 3px solid #fff;
 }
 
+#coh-get-involved {
+  margin-top: -22px;
+  margin-bottom: -22px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 57em) {
+  #coh-mission-statement, #coh-impact-statements, #coh-get-involved {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+}
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
@@ -973,7 +992,7 @@ html, .site-footer {
 }
 
 .site-footer {
-  padding-top: 2em;
+  padding-top: 40px;
 }
 
 @media screen and (max-width: 70em) {

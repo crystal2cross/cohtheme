@@ -21,6 +21,8 @@ get_header(); ?>
 
     <div id="coh-mission-statement" class="content-area">
         <main id="main" class="site-main" role="main">
+        
+         <div class="coh-title">Mission</div>
 
         <?php
 
@@ -49,6 +51,8 @@ get_header(); ?>
     <div id="coh-impact-statements" class="content-area">
         <main id="main" class="site-main" role="main">
 
+        <div class="coh-title">Impact</div>
+        
         <?php
 
             $args=array(
@@ -72,6 +76,8 @@ get_header(); ?>
     <div id="coh-get-involved" class="content-area">
         <main id="main" class="site-main" role="main">
 
+        <div class="coh-title">Get Involved</div>
+        
         <?php
 
             $args=array(
