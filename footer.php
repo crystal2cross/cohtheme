@@ -37,28 +37,28 @@
             <div class="coh-footer-major-col-2">
                 <div class="coh-footer-col-2">
                     <p><b>Who We Are</b></p>
-                    <p>Mission & History</p>
-                    <p>Staff</p>
+                    <p>Mission & History<br>
+                    Staff</p>
                 </div> 
                 <div class="coh-footer-col-3">
                     <p><b>What We Do</b></p>
-                    <p>Workgroups</p>
-                    <p>Reports</p>
-                    <p>Street Sheet</p>
+                    <p>Workgroups<br>
+                    Reports<br>
+                    Street Sheet</p>
                 </div>
             </div>
             <div class="coh-footer-col-4">
                 <p><b>Get Involved</b></p>
-                <p>Events</p>
-                <p>Sign Up for COH News</p>
-                <p>Ways to Give</p>
-                <p>Buy COH Swag</p>
+                <p>Events<br>
+                Sign Up for COH News<br>
+                Ways to Give<br>
+                Buy COH Swag</p>
             </div> 
         </div>
         <hr style="clear:both">
         <div class="site-info">
             <div class="coh-footer-col-5">
-                <p>© Copyright 2017 Coalition on Homelessness.  All rights reserved.<br>Website Designed &amp; Developed by <a href="https://www.linkedin.com/in/crystalcross" target="_blank">Crystal Cross</a></p>
+                <p>© Copyright 2017 Coalition on Homelessness.  All rights reserved.<br>Website Designed &amp; Developed by <a href="https://crystal2cross.github.io/" target="_blank">Crystal Cross</a></p>
             </div>
         </div><!-- .site-info -->
     </footer><!-- #colophon -->

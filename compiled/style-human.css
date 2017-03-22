@@ -1190,6 +1190,10 @@ html, .site-footer {
   color: #fff;
   text-decoration: none;
 }
+.site-footer b {
+  font-weight: 900;
+  font-size: 1.1em;
+}
 
 a.coh-social {
   margin-right: 1em;
