@@ -94,7 +94,11 @@ get_header(); ?>
             }
           wp_reset_query();  // Restore global post data stomped by the_post().
         ?>
-
+        
+        <div class="coh-flex">
+            <a href="#" class="coh-donate-button">Become a donor</a> <a href="#" class="coh-news-button">Sign up for COH news</a>
+        </div>
+            
         </main><!-- #main -->
     </div><!-- #coh-get-involved -->
 

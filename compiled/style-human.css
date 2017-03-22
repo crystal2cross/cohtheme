@@ -643,7 +643,7 @@ a:hover, a:active {
   }
 }
 /* Large screen */
-@media screen and (min-width: 57em) {
+@media screen and (min-width: 58em) {
   .menu-toggle {
     display: none;
   }
@@ -667,23 +667,26 @@ a:hover, a:active {
   }
 
   .donate-button a {
-    line-height: 56px !important;
     background-color: #E6525A;
-    padding-left: 3.5em !important;
-    padding-right: 3.5em !important;
-    margin-right: 2em;
+    padding: 1em 3.5em !important;
+    border: solid 2px #E6525A;
+    border-radius: 7px;
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4), 0 2px 2px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0em 2.2em !important;
+    line-height: 52px !important;
     margin-left: 2em;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 7px;
-    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4), 0 2px 2px rgba(0, 0, 0, 0.2);
   }
   .donate-button a:hover, .donate-button a:focus {
-    text-decoration: none;
+    color: #fff;
+    text-decoration: underline;
     background-color: #5867C3;
-  }
-  .donate-button a:hover a:hover, .donate-button a:hover a:focus, .donate-button a:focus a:hover, .donate-button a:focus a:focus {
-    text-decoration: none;
+    border: solid 2px #5867C3;
   }
 }
 .site-main .comment-navigation, .site-main
@@ -1041,6 +1044,93 @@ a:hover, a:active {
     background-position: 50% 15%;
   }
 }
+.coh-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.coh-donate-button {
+  background-color: #E6525A;
+  padding: 1em 3.5em !important;
+  border: solid 2px #E6525A;
+  border-radius: 7px;
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4), 0 2px 2px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  min-width: 48%;
+}
+.coh-donate-button:hover, .coh-donate-button:focus {
+  color: #fff;
+  text-decoration: underline;
+  background-color: #5867C3;
+  border: solid 2px #5867C3;
+}
+
+.coh-news-button {
+  background-color: none;
+  padding: 1em 3.5em !important;
+  border-radius: 7px;
+  border: solid 2px #1D8AE9;
+  color: #1D8AE9;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  min-width: 48%;
+}
+.coh-news-button:hover, .coh-news-button:focus {
+  color: #fff;
+  text-decoration: underline;
+  background-color: #1D8AE9;
+}
+
+@media screen and (max-width: 40em) {
+  .coh-flex {
+    display: block;
+  }
+
+  .coh-donate-button {
+    background-color: #E6525A;
+    padding: 1em 3.5em !important;
+    border: solid 2px #E6525A;
+    border-radius: 7px;
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4), 0 2px 2px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    min-width: 100%;
+  }
+  .coh-donate-button:hover, .coh-donate-button:focus {
+    color: #fff;
+    text-decoration: underline;
+    background-color: #5867C3;
+    border: solid 2px #5867C3;
+  }
+
+  .coh-news-button {
+    background-color: none;
+    padding: 1em 3.5em !important;
+    border-radius: 7px;
+    border: solid 2px #1D8AE9;
+    color: #1D8AE9;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    min-width: 100%;
+    margin-top: 1.5em;
+  }
+  .coh-news-button:hover, .coh-news-button:focus {
+    color: #fff;
+    text-decoration: underline;
+    background-color: #1D8AE9;
+  }
+}
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
@@ -1171,7 +1261,7 @@ html, .site-footer {
   text-shadow: 2px 2px #939AAA;
   text-align: center;
   position: absolute;
-  font-size: 2em;
+  font-size: 1.6em;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1205,7 +1295,7 @@ html, .site-footer {
   }
 
   .coh-media-text {
-    font-size: 2.5em;
+    font-size: 1.8em;
   }
 }
 .page-content .wp-smiley,

@@ -127,7 +127,7 @@
     }
 }
 /* Large screen */
-@media screen and (min-width: 57em) {
+@media screen and (min-width: 58em) {
     .menu-toggle {
             display: none;
     }
@@ -151,23 +151,12 @@
         }
     }
     .donate-button a {
-        line-height: 56px !important;
-        background-color: #E6525A;
-        padding-left: 3.5em !important;
-        padding-right: 3.5em !important;
-        margin-right: 2em;
+        @include coh-button(#E6525A, #5867C3);
+        padding: 0em 2.2em !important;
+        line-height: 52px !important;
         margin-left: 2em;
         margin-top: 20px;
         margin-bottom: 20px;
-        border-radius: 7px;
-        box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4), 0 2px 2px rgba(0, 0, 0, 0.2);
-        &:hover, &:focus {
-            text-decoration: none;
-            background-color: #5867C3;
-            a:hover, a:focus {
-                text-decoration: none;
-            }
-        }
     }
 }
 

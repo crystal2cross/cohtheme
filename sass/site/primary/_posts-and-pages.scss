@@ -167,3 +167,39 @@
         }
     }
 }
+
+.coh-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.coh-donate-button {
+    @include coh-button(#E6525A, #5867C3); 
+    min-width: 48%;
+}
+
+.coh-news-button {
+    @include coh-button-2(#1D8AE9);
+    min-width: 48%;
+}
+
+@media screen and (max-width: 40em) {
+    .coh-flex {
+        display: block;
+    }
+    
+    .coh-donate-button {
+        @include coh-button(#E6525A, #5867C3); 
+        display: block;
+        min-width: 100%;
+    }
+
+    .coh-news-button {
+        @include coh-button-2(#1D8AE9);
+        display: block;
+        min-width: 100%;
+        margin-top: 1.5em;
+    }
+}
