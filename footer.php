@@ -22,7 +22,17 @@
                 San Francisco, CA 94102</p>
                 <p>T: (415) 346-3740<br>
                 F: (415) 346-7685</p>
-                <p>social media links</p>
+                <p>
+                    <a class="coh-social" href="https://www.facebook.com/CoalitionOnHomelessness/" target="_blank">
+                        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <a class="coh-social" href="https://twitter.com/TheCoalitionSF" target="_blank">
+                        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <a class="coh-social" href="https://www.instagram.com/coalitiononhomelessness/" target="_blank">
+                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                    </a>
+                </p>
             </div> 
             <div class="coh-footer-major-col-2">
                 <div class="coh-footer-col-2">

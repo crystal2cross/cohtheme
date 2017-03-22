@@ -32,6 +32,13 @@ html, .site-footer {
     }
 }
 
+a.coh-social {
+    margin-right: 1em;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
 hr {
     background-color: #56598E;
 }

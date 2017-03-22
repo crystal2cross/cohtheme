@@ -1195,6 +1195,13 @@ html, .site-footer {
   text-decoration: none;
 }
 
+a.coh-social {
+  margin-right: 1em;
+}
+a.coh-social:last-child {
+  margin-right: 0;
+}
+
 hr {
   background-color: #56598E;
 }
