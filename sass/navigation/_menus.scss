@@ -83,7 +83,7 @@
     background: none;
     color: #fff;
     margin-right: 1em;
-    margin-top: 2.2em;
+    margin-top: 2.4em;
 }
 #primary-menu {
     z-index: 1;
@@ -148,13 +148,15 @@
             a:hover {
                 text-decoration: underline;
             }
+            &:last-child {
+                padding-right: 1em;
+            }
         }
     }
     .donate-button a {
         @include coh-button(#E6525A, #5867C3);
-        padding: 0em 2.2em !important;
+        padding: 0em 2.5em !important;
         line-height: 52px !important;
-        margin-left: 2em;
         margin-top: 20px;
         margin-bottom: 20px;
     }

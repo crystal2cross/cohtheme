@@ -16,7 +16,7 @@
     <footer id="colophon" class="site-footer" role="contentinfo">
         <div class="site-info">
             <div class="coh-footer-major-col-1 coh-footer-col-1">
-                <img src="http://192.168.0.107:8888/wp-content/uploads/2017/03/coh_logo.png">
+                <img style="padding-bottom:1em" src="http://192.168.0.107:8888/wp-content/uploads/2017/03/coh_logo.png">
                 <p>Coalition on Homelessness<br>
                 468 Turk St<br>
                 San Francisco, CA 94102</p>
@@ -48,7 +48,7 @@
         <hr style="clear:both">
         <div class="site-info">
             <div class="coh-footer-col-5">
-                <p>© Copyright 2017 Coalition on Homelessness.  All rights reserved.</p>
+                <p>© Copyright 2017 Coalition on Homelessness.  All rights reserved.<br>Website Designed &amp; Developed by <a href="https://www.linkedin.com/in/crystalcross" target="_blank">Crystal Cross</a></p>
             </div>
         </div><!-- .site-info -->
     </footer><!-- #colophon -->

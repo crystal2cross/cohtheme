@@ -25,7 +25,15 @@ html, .site-footer {
     line-height: 1.6em;
 }
 .site-footer {
-    padding-top: 40px;
+    padding-top: 30px;
+    a, a:hover, a:focus {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+hr {
+    background-color: #56598E;
 }
 
 @media screen and (max-width: 70em) {
@@ -58,6 +66,9 @@ html, .site-footer {
         float: left;
         width: 100%;
     }
+    .coh-footer-col-4 {
+        padding-bottom: 2em;
+    }
 }
 
 @media screen and (min-width: 30em) {
@@ -80,5 +91,25 @@ html, .site-footer {
     .site-info {
         max-width: 62em;
         margin: 1.4em auto;
+    }
+    .site-footer {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (min-width: 50em) {
+    .site-main {
+        max-width: 55em;
+        margin: 1.4em auto;
+    }
+    .site-info {
+        max-width: 62em;
+        margin: 1.4em auto;
+    }
+    .site-footer {
+        padding-top: 70px;
+    }
+    .coh-footer-major-col-1 {
+        padding-bottom: 2em;
     }
 }

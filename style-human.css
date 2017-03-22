@@ -593,7 +593,7 @@ a:hover, a:active {
   background: none;
   color: #fff;
   margin-right: 1em;
-  margin-top: 2.2em;
+  margin-top: 2.4em;
 }
 
 #primary-menu {
@@ -665,6 +665,9 @@ a:hover, a:active {
   .main-navigation li a:hover {
     text-decoration: underline;
   }
+  .main-navigation li:last-child {
+    padding-right: 1em;
+  }
 
   .donate-button a {
     background-color: #E6525A;
@@ -676,9 +679,8 @@ a:hover, a:active {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    padding: 0em 2.2em !important;
+    padding: 0em 2.5em !important;
     line-height: 52px !important;
-    margin-left: 2em;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -1186,7 +1188,15 @@ html, .site-footer {
 }
 
 .site-footer {
-  padding-top: 40px;
+  padding-top: 30px;
+}
+.site-footer a, .site-footer a:hover, .site-footer a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+hr {
+  background-color: #56598E;
 }
 
 @media screen and (max-width: 70em) {
@@ -1220,6 +1230,10 @@ html, .site-footer {
     float: left;
     width: 100%;
   }
+
+  .coh-footer-col-4 {
+    padding-bottom: 2em;
+  }
 }
 @media screen and (min-width: 30em) {
   .site-main, .site-info {
@@ -1240,6 +1254,29 @@ html, .site-footer {
   .site-info {
     max-width: 62em;
     margin: 1.4em auto;
+  }
+
+  .site-footer {
+    padding-top: 70px;
+  }
+}
+@media screen and (min-width: 50em) {
+  .site-main {
+    max-width: 55em;
+    margin: 1.4em auto;
+  }
+
+  .site-info {
+    max-width: 62em;
+    margin: 1.4em auto;
+  }
+
+  .site-footer {
+    padding-top: 70px;
+  }
+
+  .coh-footer-major-col-1 {
+    padding-bottom: 2em;
   }
 }
 /*--------------------------------------------------------------
