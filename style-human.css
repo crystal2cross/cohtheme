@@ -1154,6 +1154,17 @@ a:hover, a:active {
   padding-bottom: 1em;
 }
 
+.breadcrumbs {
+  color: #404040;
+  text-transform: uppercase;
+  font-size: .8em;
+}
+.breadcrumbs a, .breadcrumbs a:hover, .breadcrumbs a:focus {
+  color: #999;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 57em) {
   .content-area {
     padding-top: 0em;

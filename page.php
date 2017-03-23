@@ -17,7 +17,7 @@ get_header(); ?>
         <div class="coh-page-header">
             <?php $slug = basename(get_permalink());
             if ($slug === 'who-we-are') { ?>
-                <img src="http://192.168.0.107:8888/wp-content/uploads/2017/03/header-1.png">
+                <img src="http://192.168.0.107:8888/wp-content/uploads/2017/03/header-1-1.png">
             <?php } else if ($slug === 'what-we-do') { ?>
                 <img src="http://192.168.0.107:8888/wp-content/uploads/2017/03/header2-2.png">
             <?php } else if ($slug === 'get-involved') { ?>
@@ -28,6 +28,13 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+                    
+                        <div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+                            <?php if(function_exists('bcn_display'))
+                            {
+                                bcn_display();
+                            }?>
+                        </div>
 
 			<?php
 			while ( have_posts() ) : the_post();
