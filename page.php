@@ -17,11 +17,11 @@ get_header(); ?>
         <div class="coh-page-header">
             <?php $slug = basename(get_permalink());
             if ($slug === 'who-we-are') { ?>
-                <img src="http://192.168.0.107:8888/wp-content/uploads/2017/03/header-1-1.png">
+                <img src="http://192.168.0.114:8888/wp-content/uploads/2017/03/header-1-1.png">
             <?php } else if ($slug === 'what-we-do') { ?>
-                <img src="http://192.168.0.107:8888/wp-content/uploads/2017/03/header2-2.png">
+                <img src="http://192.168.0.114:8888/wp-content/uploads/2017/03/header2-2.png">
             <?php } else if ($slug === 'get-involved') { ?>
-                <img src="http://192.168.0.107:8888/wp-content/uploads/2017/03/header3.png">
+                <img src="http://192.168.0.114:8888/wp-content/uploads/2017/03/header3.png">
             <?php }
             ?>
         </div>

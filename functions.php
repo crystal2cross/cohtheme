@@ -7,6 +7,9 @@
  * @package COH_Theme
  */
 
+update_option( 'siteurl', 'http://192.168.0.114:8888' );
+update_option( 'home', 'http://192.168.0.114:8888' );
+
 if ( ! function_exists( 'cohtheme_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.

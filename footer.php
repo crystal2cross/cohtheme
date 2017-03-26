@@ -16,7 +16,7 @@
     <footer id="colophon" class="site-footer" role="contentinfo">
         <div class="site-info">
             <div class="coh-footer-major-col-1 coh-footer-col-1">
-                <img style="padding-bottom:1em" src="http://192.168.0.107:8888/wp-content/uploads/2017/03/coh-logo-big.png">
+                <img style="padding-bottom:1em" src="http://192.168.0.114:8888/wp-content/uploads/2017/03/coh-logo-big.png">
                 <p>Coalition on Homelessness<br>
                 468 Turk St<br>
                 San Francisco, CA 94102</p>
