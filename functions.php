@@ -7,8 +7,10 @@
  * @package COH_Theme
  */
 
-update_option( 'siteurl', 'http://192.168.0.114:8888' );
-update_option( 'home', 'http://192.168.0.114:8888' );
+$ip = "192.168.0.107";
+
+update_option( 'siteurl', 'http://' + $ip + ':8888' );
+update_option( 'home', 'http://' + $ip + ':8888' );
 
 if ( ! function_exists( 'cohtheme_setup' ) ) :
 /**
