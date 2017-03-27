@@ -600,7 +600,7 @@ a:hover, a:active {
   z-index: 1;
 }
 
-@media screen and (max-width: 57em) {
+@media screen and (max-width: 58em) {
   /* disable submenus on smaller screens */
   ul.sub-menu {
     display: none !important;
@@ -689,6 +689,13 @@ a:hover, a:active {
     text-decoration: underline;
     background-color: #5867C3;
     border: solid 2px #5867C3;
+  }
+
+  #primary-menu > li:hover {
+    background-color: #5867C3;
+  }
+  #primary-menu > li:last-child:hover {
+    background-color: #272B6F;
   }
 }
 .site-main .comment-navigation, .site-main

@@ -88,7 +88,7 @@
 #primary-menu {
     z-index: 1;
 }
-@media screen and (max-width: 57em) {
+@media screen and (max-width: 58em) {
     /* disable submenus on smaller screens */
     ul.sub-menu { display: none !important; }
  
@@ -159,6 +159,15 @@
         line-height: 52px !important;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    
+    #primary-menu > li {
+        &:hover {
+            background-color: #5867C3;
+        }
+        &:last-child:hover {
+            background-color: #272B6F;
+        }
     }
 }
 
