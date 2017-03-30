@@ -9,8 +9,6 @@
  * @package COH_Theme
  */
 
-global $ip;
-
 ?>
 
     </div><!-- #content -->
@@ -18,7 +16,7 @@ global $ip;
     <footer id="colophon" class="site-footer" role="contentinfo">
         <div class="site-info">
             <div class="coh-footer-major-col-1 coh-footer-col-1">
-                <img style="padding-bottom:1em" src="<?php echo "http://" . $ip . ":8888/wp-content/uploads/2017/03/coh-logo-big.png"; ?>">
+                <img style="padding-bottom:1em" src="http://www.cohsf.org/wp-content/uploads/2017/03/coh-logo-big.png">
                 <p>Coalition on Homelessness<br>
                 468 Turk St<br>
                 San Francisco, CA 94102</p>
@@ -39,22 +37,22 @@ global $ip;
             <div class="coh-footer-major-col-2">
                 <div class="coh-footer-col-2">
                     <p><b>Who We Are</b></p>
-                    <p>Mission & History<br>
-                    Staff</p>
+                    <p><a href="http://www.cohsf.org/who-we-are/mission-history/">Mission & History</a><br>
+                       <a href="http://www.cohsf.org/who-we-are/staff/">Staff</a></p>
                 </div> 
                 <div class="coh-footer-col-3">
                     <p><b>What We Do</b></p>
-                    <p>Workgroups<br>
-                    Reports<br>
-                    Street Sheet</p>
+                    <p><a href="http://www.cohsf.org/what-we-do/workgroups/">Workgroups</a><br>
+                       <a href="http://www.cohsf.org/what-we-do/reports/">Reports</a><br>
+                       <a href="http://www.streetsheet.org/" target="_blank">Street Sheet</a></p>
                 </div>
             </div>
             <div class="coh-footer-col-4">
                 <p><b>Get Involved</b></p>
-                <p>Events<br>
-                Sign Up for COH News<br>
-                Ways to Give<br>
-                Buy COH Swag</p>
+                <p><a href="http://www.cohsf.org/get-involved/events/">Events</a><br>
+                   <a href="http://www.cohsf.org/get-involved/sign-up-for-coh-news/">Sign Up for COH News</a><br>
+                   <a href="http://www.cohsf.org/get-involved/ways-to-give/">Ways to Give</a><br>
+                   <a href="http://www.cohsf.org/get-involved/buy-coh-swag/">Buy COH Swag</a></p>
             </div> 
         </div>
         <hr style="clear:both">

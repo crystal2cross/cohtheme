@@ -13,6 +13,14 @@ html, .site-footer {
 .coh-footer-col-3, .coh-footer-col-4 {
     text-transform: uppercase;
 }
+.coh-footer-major-col-2, .coh-footer-col-4 {
+    a {
+        line-height: 2em;
+    }
+    a:hover, a:focus {
+        text-decoration: underline !important;
+    }
+}
 .coh-footer-col-5 {
     color: #fff;
     text-align: center;

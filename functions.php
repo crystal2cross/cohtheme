@@ -7,11 +7,6 @@
  * @package COH_Theme
  */
 
-$ip = "192.168.0.107";
-
-update_option( 'siteurl', 'http://' + $ip + ':8888' );
-update_option( 'home', 'http://' + $ip + ':8888' );
-
 if ( ! function_exists( 'cohtheme_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.

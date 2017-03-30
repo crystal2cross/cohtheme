@@ -610,7 +610,7 @@ a:hover, a:active {
     width: 100%;
     position: absolute;
     left: 0px;
-    top: 96px;
+    top: 92px;
     background-color: #5867C3;
   }
   #primary-menu a {
@@ -933,7 +933,7 @@ a:hover, a:active {
   margin-bottom: -22px;
   padding-top: 3em;
   padding-bottom: 2em;
-  background: url("http://192.168.0.107:8888/wp-content/uploads/2017/03/butterflies.png");
+  background: url("http://www.cohsf.org/wp-content/uploads/2017/03/butterflies.png");
   background-repeat: no-repeat;
   background-size: 115px 77px;
   background-position: 12em 3em;
@@ -972,19 +972,19 @@ a:hover, a:active {
   margin-bottom: 0;
 }
 #coh-impact-statements li:nth-child(1) {
-  background-image: url("http://192.168.0.107:8888/wp-content/uploads/2017/03/fist_icon.png");
+  background-image: url("http://www.cohsf.org/wp-content/uploads/2017/03/fist_icon.png");
   background-repeat: no-repeat;
   background-size: 80px 80px;
   background-position: 50% 20%;
 }
 #coh-impact-statements li:nth-child(2) {
-  background-image: url("http://192.168.0.107:8888/wp-content/uploads/2017/03/horn-icon.png");
+  background-image: url("http://www.cohsf.org/wp-content/uploads/2017/03/horn-icon.png");
   background-repeat: no-repeat;
   background-size: 80px 80px;
   background-position: 50% 20%;
 }
 #coh-impact-statements li:nth-child(3) {
-  background-image: url("http://192.168.0.107:8888/wp-content/uploads/2017/03/people-icon.png");
+  background-image: url("http://www.cohsf.org/wp-content/uploads/2017/03/people-icon.png");
   background-repeat: no-repeat;
   background-size: 80px 80px;
   background-position: 50% 20%;
@@ -1260,6 +1260,13 @@ html, .site-footer {
   text-transform: uppercase;
 }
 
+.coh-footer-major-col-2 a, .coh-footer-col-4 a {
+  line-height: 2em;
+}
+.coh-footer-major-col-2 a:hover, .coh-footer-major-col-2 a:focus, .coh-footer-col-4 a:hover, .coh-footer-col-4 a:focus {
+  text-decoration: underline !important;
+}
+
 .coh-footer-col-5 {
   color: #fff;
   text-align: center;
@@ -1472,6 +1479,10 @@ embed,
 iframe,
 object {
   max-width: 100%;
+}
+
+img.custom-logo {
+  width: auto;
 }
 
 /*--------------------------------------------------------------
